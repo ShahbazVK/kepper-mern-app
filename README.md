@@ -1,3 +1,2 @@
 # kepper-mern-app
-
-![Screenshot (766)](https://user-images.githubusercontent.com/63925374/190825610-85aa6eca-6860-462b-99f6-a94485de13f9.png)
+![Screenshot (766)](https://user-images.githubusercontent.com/63925374/190826400-c72a4d18-0eb3-473d-970f-18975a6d172a.png)
