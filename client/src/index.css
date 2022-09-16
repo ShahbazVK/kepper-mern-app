@@ -1,0 +1,102 @@
+@import '~antd/dist/antd.css';
+html,body{
+  background: rgb(59,164,160);
+  background: linear-gradient(90deg, rgba(59,164,160,1) 0%, rgba(248,254,255,1) 100%);
+  height: 100vh;
+}
+.inputdesc{
+  height: 7rem;
+  background-color: #282f30;
+  border-radius: 20px;
+  border: none;
+
+}
+.inputtitle{
+  height: 5rem;
+  background-color: #282f30;
+  border-radius: 20px;
+  border: none;
+}
+.submitbutton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.keeper h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: #1da9c9;
+  font-size: 40px;
+  -webkit-box-shadow: -1px 6px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 6px 10px 0px rgba(0,0,0,0.75);
+box-shadow: -1px 6px 10px 0px rgba(0,0,0,0.75);
+}
+.submit{
+  background: rgb(183,229,237);
+background: linear-gradient(90deg, rgba(183,229,237,1) 0%, rgba(59,164,160,1) 100%);
+font-weight: bold;
+}
+.card{
+  border: none;
+  border-radius: 18px;
+}
+.card input{
+  background-color: #282f30;
+  color: aliceblue;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cardmargin{
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  height: 20rem;
+  overflow-wrap: break-word;
+  overflow-y: scroll;
+}
+ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+
+/* SCROLLBAR SETTINGS */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-button {
+  background: rgb(255, 255, 255)
+}
+::-webkit-scrollbar-track-piece {
+  background: #666161;
+}
+::-webkit-scrollbar-thumb {
+  background: #eee
+}
+.cardmargin::-webkit-scrollbar {
+  width: 0px;
+}
+.cardmargin:hover::-webkit-scrollbar {
+  width: 10px;
+}
+.cardmargin:hover::-webkit-scrollbar-button {
+  display: none;
+}
+.cardmargin::-webkit-scrollbar-track-piece {
+  background: #666161;
+  border-radius: 10px;
+}
+.cardmargin::-webkit-scrollbar-thumb {
+  background: #eee;
+  border-radius: 10px;
+
+}
+.deleteIcon:hover{
+  background-color: rgb(0, 0, 0);
+}
